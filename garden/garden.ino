@@ -17,7 +17,7 @@ void setup()
 
 void loop()
 {
-    if (soilVal > 850)
+    if (soilVal > 550)
     {
         digitalWrite(pump, LOW);
         delay(timeon);
